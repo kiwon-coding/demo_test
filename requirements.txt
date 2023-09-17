@@ -1,0 +1,4 @@
+langchain==0.0.292
+langsmith==0.0.37 ; python_version < '4.0' and python_full_version >= '3.8.1'
+openai==0.28.0
+streamlit==1.26.0
