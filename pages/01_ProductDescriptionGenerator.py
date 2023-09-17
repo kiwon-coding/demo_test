@@ -5,6 +5,7 @@ import os
 if __name__ == '__main__':
     st.title("Product Description Generator")
 
+    st.write("OK")
     api_key_input = st.text_input("OpenAI API Key", type="password", value=os.getenv("OPENAI_API_KEY") or st.session_state.get("OPENAI_API_KEY", ""))
     api_key_button = st.button("Add")
     if api_key_button:
